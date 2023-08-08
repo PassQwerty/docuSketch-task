@@ -10,6 +10,7 @@ const tailwindStyles = {
 function App() {
   return (
     <div className={tailwindStyles.base.div}>
+      {/* загрузка рандомной иконки */}
       <IconsView />
     </div>
   );
